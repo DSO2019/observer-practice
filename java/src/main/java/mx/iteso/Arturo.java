@@ -2,8 +2,8 @@ package mx.iteso;
 
 import java.util.ArrayList;
 
-public class RodrigoVillalobos {
-    ArrayList<String> messages;
+public class Arturo implements Usuario {
+    ArrayList<String> messages = new ArrayList<String>();
 
     public void getMessage(String message){
         messages.add(message);
@@ -13,10 +13,12 @@ public class RodrigoVillalobos {
         if(messages.isEmpty())
             return false;
         else{
-            while(messages.size() > 0){
-                System.out.println(messages.get(messages.size()));
-                messages.remove(messages.size());
+            int temp = 0;
+            while( temp < messages.size()){
+                System.out.println(messages.get(temp));
+                temp++;
             }
+            messages.removeAll(messages);
             return true;
         }
     }
@@ -24,10 +26,10 @@ public class RodrigoVillalobos {
         if(messages.isEmpty())
             return false;
         else{
-            int temp = messages.size();
-            while( temp > 0){
+            int temp = 0;
+            while( temp < messages.size()){
                 System.out.println(messages.get(temp));
-                temp = temp - 1;
+                temp++;
             }
             return true;
         }
@@ -42,5 +44,4 @@ public class RodrigoVillalobos {
             return true;
         }
     }
-
 }
