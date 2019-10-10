@@ -4,7 +4,7 @@ import mx.iteso.Observer;
 import java.util.ArrayList;
 
 public class RodrigoVillalobos implements Observer{
-    ArrayList<String> messages;
+    ArrayList<String> messages = new ArrayList<String>();
 
     @Override
     public void getMessage(String message){

@@ -1,7 +1,7 @@
 package mx.iteso;
 
 
-class Main {
+public class Whats {
     public static void main( String[] args ){
         GrupoDisenoSoftware quintaEstacion;
         quintaEstacion = new GrupoDisenoSoftware();
