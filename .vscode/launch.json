@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WhatsDisenoSoftware",
+            "request": "launch",
+            "mainClass": "mx.iteso.WhatsDisenoSoftware",
+            "projectName": "observer-practice"
+        }
+    ]
+}
