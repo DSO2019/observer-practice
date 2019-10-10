@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - t",
+            "request": "launch",
+            "mainClass": "mx.iteso.t",
+            "projectName": "observer-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Whatsapp",
+            "request": "launch",
+            "mainClass": "mx.iteso.Whatsapp",
+            "projectName": "observer-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NewsStation",
+            "request": "launch",
+            "mainClass": "mx.iteso.NewsStation",
+            "projectName": "observer-practice"
+        }
+    ]
+}
