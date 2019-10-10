@@ -2,8 +2,13 @@ package mx.iteso;
 
 import java.util.ArrayList;
 
-public class RodrigoVillalobos {
+public class RodrigoVillalobos implements Observer{
     ArrayList<String> messages;
+
+    public RodrigoVillalobos()
+    {
+        messages = new ArrayList<String>();
+    }   
 
     public void getMessage(String message){
         messages.add(message);
@@ -14,8 +19,8 @@ public class RodrigoVillalobos {
             return false;
         else{
             while(messages.size() > 0){
-                System.out.println(messages.get(messages.size()));
-                messages.remove(messages.size());
+                System.out.println(messages.get(messages.size()-1));
+                messages.remove(messages.size()-1);
             }
             return true;
         }
@@ -26,7 +31,7 @@ public class RodrigoVillalobos {
         else{
             int temp = messages.size();
             while( temp > 0){
-                System.out.println(messages.get(temp));
+                System.out.println(messages.get(temp -1));
                 temp = temp - 1;
             }
             return true;
@@ -42,5 +47,4 @@ public class RodrigoVillalobos {
             return true;
         }
     }
-
 }
