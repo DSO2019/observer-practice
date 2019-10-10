@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WhatsAppGroup",
+            "request": "launch",
+            "mainClass": "WhatsAppGroup",
+            "projectName": "observer-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NewsStation",
+            "request": "launch",
+            "mainClass": "NewsStation",
+            "projectName": "observer-practice"
+        }
+    ]
+}
