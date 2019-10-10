@@ -32,7 +32,7 @@ public class UserObserver implements Observer{
         if(messages.isEmpty())
             return false;
         else{
-            int temp = messages.size();
+            int temp = messages.size() - 1;
             while( temp > 0){
                 System.out.println(messages.get(temp));
                 temp = temp - 1;
@@ -45,7 +45,7 @@ public class UserObserver implements Observer{
             return false;
         else{
             while(messages.size() > 0){
-                messages.remove(messages.size());
+                messages.remove(messages.size() - 1);
             }
             return true;
         }
