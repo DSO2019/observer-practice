@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="observer-practice" target="1.5" />
+      <module name="observer-practice" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
