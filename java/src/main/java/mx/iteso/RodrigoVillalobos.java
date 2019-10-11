@@ -1,9 +1,12 @@
 package mx.iteso;
-
 import java.util.ArrayList;
 
-public class RodrigoVillalobos {
+public class RodrigoVillalobos implements Observer{
     ArrayList<String> messages;
+
+    public RodrigoVillalobos() {
+        this.messages = new ArrayList<String>();
+    }
 
     public void getMessage(String message){
         messages.add(message);
@@ -20,6 +23,7 @@ public class RodrigoVillalobos {
             return true;
         }
     }
+
     public boolean readMessagesAndKeep(){
         if(messages.isEmpty())
             return false;
