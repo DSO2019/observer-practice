@@ -1,4 +1,6 @@
-package mx.iteso;
+//package mx.iteso;
+import java.util.ArrayList;
+
 
 public class GrupoDisenoSoftware implements Subject {
     private final ArrayList observers;
@@ -19,7 +21,7 @@ public class GrupoDisenoSoftware implements Subject {
     public void notifyObservers(){
         for (Object observer1 : observers) {
             Observer observer = (Observer) observer1;
-            observer.getMessage(this.message)
+            observer.getMessage(this.message);
         }
     }
 
